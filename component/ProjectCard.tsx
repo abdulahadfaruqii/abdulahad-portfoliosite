@@ -22,7 +22,8 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
       transition={{ delay: index * 0.1 }}
       className="glass group relative overflow-hidden rounded-3xl h-80 lg:h-96 hover:bg-white/20 transition-all duration-500 cursor-pointer"
     >
-      <Link href={`/projects/${project.slug}`} className="block h-full w-full">
+      {/* <Link href={`/projects/${project.slug}`} className="block h-full w-full"> */}
+      <Link href={`${project.liveDemo}`} className="block h-full w-full">
         {/* Project Image */}
         <div className="relative h-2/3 overflow-hidden">
           <Image
@@ -47,13 +48,13 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
         </div>
 
         {/* Project Info */}
-        <div className="p-6 h-1/3 flex flex-col justify-between">
+        <div className="p-2 h-1/3 flex flex-col justify-between">
           <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
-          <p className="text-white/70 text-sm mb-4 line-clamp-2">
+          <p className="text-white/70 text-sm mb-2 line-clamp-2">
             {project.description}
           </p>
           <div className="flex flex-wrap gap-2">
-            {project.technologies.slice(0, 3).map((tech) => (
+            {project.technologies.slice(0, 5).map((tech) => (
               <span key={tech} className="px-3 py-1 bg-white/10 rounded-full text-xs text-white">
                 {tech}
               </span>
