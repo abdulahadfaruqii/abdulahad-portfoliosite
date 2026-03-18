@@ -23,7 +23,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
       className="glass group relative overflow-hidden rounded-3xl h-80 lg:h-96 hover:bg-white/20 transition-all duration-500 cursor-pointer"
     >
       {/* <Link href={`/projects/${project.slug}`} className="block h-full w-full"> */}
-      <Link href={`${project.liveDemo}`} className="block h-full w-full">
+      <Link href={`${project.liveDemo}`}  target="_blank"  className="block h-full w-full">
         {/* Project Image */}
         <div className="relative h-2/3 overflow-hidden">
           <Image

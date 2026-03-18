@@ -95,7 +95,7 @@ export function Hero() {
             animate={{ y: 0 }}
             transition={{ delay: 0.2 }}
           >
-            Full Stack Developer crafting exceptional digital experiences
+         I build modern web & mobile apps with React.js and React Native that actually perform
           </motion.p>
           <motion.div
             initial={{ y: 20, opacity: 0 }}

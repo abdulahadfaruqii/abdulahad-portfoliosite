@@ -39,16 +39,16 @@ export function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`relative group text-lg font-medium transition-colors px-2 ${
+                className={`relative group text-lg font-medium transition-colors px-2  ${
                   pathname === item.href
-                    ? "text-white"
-                    : "text-white/70 hover:text-white"
+                    ? "text-white rounded-md"
+                    : "text-white/70 hover:text-white     "
                 }`}
               >
                 {item.name}
 
                 <span
-                  className={`absolute inset-0 bg-gradient-to-r from-[#a855f7] via-purple-500 to-[#d946ef] rounded-full -z-10 transform scale-0 group-hover:scale-100 transition-transform duration-300 ${
+                  className={`absolute inset-0 rounded-lg bg-gradient-to-r from-[#a855f7] via-purple-500 to-[#d946ef] rounded-full -z-10 transform scale-0 group-hover:scale-100 transition-transform duration-300 ${
                     pathname === item.href ? "scale-100" : ""
                   }`}
                 />

@@ -43,7 +43,7 @@ export function AboutSection() {
             About Me
           </h2>
           <p className="text-xl text-white/80 max-w-2xl mx-auto">
-            Passionate developer creating pixel-perfect experiences with modern technologies
+         React.js & React Native Developer with 3+ years of experience building scalable, high-performance web and mobile applications with a strong focus on user experience.
           </p>
         </motion.div>
 
@@ -62,7 +62,7 @@ export function AboutSection() {
               </svg>
             </div>
             <h3 className="text-2xl font-bold text-white mb-4">3+ Years</h3>
-            <p className="text-white/70">Full-stack development experience</p>
+            <p className="text-white/70"> React.js & React Native Developer experience</p>
           </motion.div>
 
           <motion.div 

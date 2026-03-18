@@ -5,11 +5,13 @@ import { useRef } from 'react'
 
 const skills = [
   { name: 'React Native', level: 95 },
-  { name: 'React', level: 95 },
+  { name: 'React.js', level: 95 },
   { name: 'Next.js', level: 90 },
   { name: 'TypeScript', level: 85 },
   { name: 'Tailwind CSS', level: 95 },
-  { name: 'Vite', level: 85 },
+  { name: 'Redux Toolkit', level: 90 },
+  { name: 'Supabase', level: 90 },
+  { name: 'Firebase', level: 85 },
 ]
 
 export function SkillsSection() {
