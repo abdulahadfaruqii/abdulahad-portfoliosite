@@ -30,7 +30,7 @@ export const projects: Project[] = [
       'A stylish furniture showcase website with modern UI design, product galleries, and responsive layouts to provide an engaging browsing experience.',
     technologies: ['Vite.js', 'UI', 'CSS'],
     github: 'https://github.com/tahaa-faruqii/vitefurniture-web',
-    liveDemo: 'https://vitefurniture-web-git-main-tahaa-faruqiis-projects.vercel.app/'
+    liveDemo: 'https://vitefurniture-web.vercel.app/'
   },
   {
     slug: 'portfolio-site',
