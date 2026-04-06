@@ -82,7 +82,7 @@ export function ContactSection() {
         >
           {/* Facebook */}
           <a
-            href="https://facebook.com/yourprofile"
+            href="https://www.facebook.com/AbdulAhadFarooqi.dev"
             target="_blank"
             rel="noopener noreferrer"
             className="glass p-4 rounded-2xl hover:bg-white/20 transition-all w-16 h-16 flex items-center justify-center"
@@ -98,7 +98,7 @@ export function ContactSection() {
 
           {/* LinkedIn */}
           <a
-            href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+            href="https://www.linkedin.com/in/abdul-ahad-farooqi-4793781b8"
             target="_blank"
             rel="noopener noreferrer"
             className="glass p-4 rounded-2xl hover:bg-white/20 transition-all w-16 h-16 flex items-center justify-center"
@@ -114,7 +114,7 @@ export function ContactSection() {
 
           {/* Instagram */}
           <a
-            href="https://instagram.com/yourprofile"
+            href="https://www.instagram.com/tahaa_faruqii/"
             target="_blank"
             rel="noopener noreferrer"
             className="glass p-4 rounded-2xl hover:bg-white/20 transition-all w-16 h-16 flex items-center justify-center"
