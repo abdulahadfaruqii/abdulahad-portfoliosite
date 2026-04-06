@@ -21,15 +21,18 @@ export const metadata: Metadata = {
     "Mobile App Developer",
     "Hire React Developer",
   ],
+  verification: {
+    google: "P8LD0alGMwDzro3556o0uvCkDv_c93D2FARr0qWv4xs",
+  },
   authors: [{ name: "Abdul Ahad Farooqi" }],
   creator: "Abdul Ahad Farooqi",
-  metadataBase: new URL("https://abdulahadportfolio-eight.vercel.app"),
+  metadataBase: new URL("https://abdulahadfarooqiportfolio.vercel.app"),  // ✅ updated
 
   openGraph: {
     title: "Abdul Ahad Farooqi | React & React Native Developer",
     description:
       "Building modern web & mobile apps with React.js and React Native. 3+ years experience, 20+ projects delivered.",
-    url: "https://abdulahadportfolio-eight.vercel.app",
+    url: "https://abdulahadfarooqiportfolio.vercel.app",  // ✅ updated
     siteName: "Abdul Ahad Farooqi Portfolio",
     images: [
       {
