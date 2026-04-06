@@ -43,17 +43,7 @@ export const projects: Project[] = [
     github: 'https://github.com/tahaa-faruqii/vite-portfolio',
     liveDemo: 'https://vite-portfolio-five-lime.vercel.app/'
   },
-  {
-    slug: 'cosmetics-site',
-    title: 'Cosmetics Website',
-    category: 'Web',
-    image: '/cosmeticweb.png',
-    description:
-      'An elegant cosmetics e-commerce website featuring product listings, modern UI components, smooth animations, and responsive design for beauty product promotion.',
-    technologies: ['Vite.js', 'UI', 'Framer Motion', 'Tailwind', 'GSAP'],
-    github: 'https://github.com/tahaa-faruqii/cosmetics-website',
-    liveDemo: 'https://cosmetics-website-zeta.vercel.app/'
-  },
+  
   {
     slug: 'dashboard-site',
     title: 'Dashboard Website',
@@ -61,7 +51,7 @@ export const projects: Project[] = [
     image: '/portal.png',
     description:
       'A modern admin dashboard interface designed for data management and analytics with clean UI components, responsive layout, and interactive elements.',
-    technologies: ['Vite.js', 'UI', 'Framer Motion', 'Tailwind', 'GSAP'],
+    technologies: ['Vite.js', 'UI', 'Framer Motion', 'Tailwind'],
     github: 'https://github.com/tahaa-faruqii/dashboard-portal',
     liveDemo: 'https://dashboard-portal-gamma.vercel.app/settings'
   }

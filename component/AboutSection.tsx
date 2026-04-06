@@ -74,7 +74,7 @@ export function AboutSection() {
                 />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-white mb-4">3+ Years</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">2+ Years</h3>
             <p className="text-white/70">
               {" "}
               React.js & React Native Developer experience
@@ -104,7 +104,7 @@ export function AboutSection() {
                 />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-white mb-4">20+</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">4+</h3>
             <p className="text-white/70">Projects delivered</p>
           </motion.div>
 

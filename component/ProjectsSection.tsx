@@ -12,7 +12,7 @@ export function ProjectsSection() {
   const tabs = [
     { id: 'all' as const, label: 'All', count: projects.length },
     { id: 'web' as const, label: 'Web', count: projects.filter(p => p.category === 'Web').length },
-    { id: 'mobile' as const, label: 'Mobile', count: projects.filter(p => p.category === 'Mobile').length },
+    // { id: 'mobile' as const, label: 'Mobile', count: projects.filter(p => p.category === 'Mobile').length },
   ]
 
   const handleTabChange = (tab: typeof activeTab) => {
