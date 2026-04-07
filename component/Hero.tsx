@@ -62,13 +62,13 @@ export function Hero() {
             <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-blue-500/20 rounded-2xl blur-xl animate-pulse" />
 
             {/* Profile Image */}
-            <Image
-              src="/profilechair-img.png"
-              alt="Abdul Ahad Farooqi"
-              fill
-              className="object-cover shadow-2xl z-10"
-            />
+           <Image
+  src="/professional-pic.png"
+  alt="Abdul Ahad Farooqi"
+  fill
+  className="object-cover object-top shadow-2xl z-10"
 
+/>
             {/* Dark Overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl pointer-events-none z-20" />
           </div>
@@ -95,7 +95,8 @@ export function Hero() {
             animate={{ y: 0 }}
             transition={{ delay: 0.2 }}
           >
-         I build modern web & mobile apps with React.js and React Native that actually perform
+            I build modern web & mobile apps with React.js and React Native that
+            actually perform
           </motion.p>
           <motion.div
             initial={{ y: 20, opacity: 0 }}
