@@ -57,20 +57,18 @@ export function Hero() {
           className="relative w-80 h-80 lg:w-96 lg:h-96 mx-auto flex items-center justify-center max-w-sm "
         >
           {/* Electric Border via pseudo-element */}
-          <div className="relative w-full max-w-sm aspect-square rounded-2xl electric-border flex items-center justify-center overflow-hidden">
+          <div className="relative w-full max-w-sm aspect-square rounded-2xl electric-border flex items-center justify-center ">
             {/* Background Glow */}
             <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-blue-500/20 rounded-2xl blur-xl animate-pulse" />
 
-            {/* Profile Image */}
-           <Image
-  src="/professional-pic.png"
-  alt="Abdul Ahad Farooqi"
-  fill
-  className="object-cover object-top shadow-2xl z-10"
-
-/>
+            <Image
+              src="/professional-pic.png"
+              alt="Abdul Ahad Farooqi"
+              fill
+              className="object-cover object-top shadow-2xl z-10"
+            />
             {/* Dark Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl pointer-events-none z-20" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent pointer-events-none z-20" />
           </div>
         </motion.div>
 

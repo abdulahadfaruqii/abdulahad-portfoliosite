@@ -2,7 +2,7 @@ import {Metadata} from "next";
 import {Inter} from "next/font/google";
 import { ReactNode } from "react";
 import { Navbar } from "@/component/Navbar";
-import "../app/globals.css";
+import "@/app/globals.css";
 const poppins = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
@@ -11,7 +11,7 @@ const poppins = Inter({
 export const metadata: Metadata = {
   title: "Abdul Ahad Farooqi | React & React Native Developer",
   description:
-    "React.js & React Native Developer with 3+ years of experience building scalable web and mobile apps. Delivered 20+ projects with 100% client satisfaction.",
+    "React.js & React Native Developer with 2+ years of experience building scalable web and mobile apps. Delivered 20+ projects with 100% client satisfaction.",
   keywords: [
     "Abdul Ahad Farooqi",
     "React Developer Pakistan",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "Abdul Ahad Farooqi Portfolio",
     images: [
       {
-        url: "/profilechair-img.png",
+        url: "/professional-pic.png",
         width: 1200,
         height: 630,
         alt: "Abdul Ahad Farooqi - React Developer",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title: "Abdul Ahad Farooqi | React & React Native Developer",
     description:
       "Building modern web & mobile apps with React.js and React Native.",
-    images: ["/profilechair-img.png"],
+    images: ["/professional-pic.png"],
   },
 
   robots: {
