@@ -3,6 +3,7 @@ import {Inter} from "next/font/google";
 import { ReactNode } from "react";
 import { Navbar } from "@/component/Navbar";
 import "@/app/globals.css";
+import Head from "next/head";
 const poppins = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Abdul Ahad Farooqi | React & React Native Developer",
     description:
-      "Building modern web & mobile apps with React.js and React Native. 3+ years experience, 20+ projects delivered.",
+      "Building modern web & mobile apps with React.js and React Native. 2+ years experience, 20+ projects delivered.",
     url: "https://abdulahadfarooqiportfolio.vercel.app",  // ✅ updated
     siteName: "Abdul Ahad Farooqi Portfolio",
     images: [
@@ -68,6 +69,10 @@ export default function Rootlayout({
   children}:{children:ReactNode}){
     return(
 <html lang="en" className={'scroll-smooth'}>
+  <Head>
+  <title>Abdul Ahad Farooqi | React & React Native Developer</title>
+  <meta name="description" content="React.js & React Native Developer..." />
+</Head>
   <body className={`${poppins.className} inter_53234ce1-module__luKqfq__className`} cz-shortcut-listen="true">
     <Navbar/>
     <main>
