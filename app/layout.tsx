@@ -12,7 +12,7 @@ const poppins = Inter({
 export const metadata: Metadata = {
   title: "Abdul Ahad Farooqi | React & React Native Developer",
   description:
-    "React.js & React Native Developer with 2+ years of experience building scalable web and mobile apps. Delivered 20+ projects with 100% client satisfaction.",
+    "React.js & React Native Developer with 2+ years of experience building scalable web and mobile apps. Delivered 4+ projects with 100% client satisfaction.",
   keywords: [
     "Abdul Ahad Farooqi",
     "React Developer Pakistan",
