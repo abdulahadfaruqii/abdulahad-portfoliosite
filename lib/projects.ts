@@ -54,5 +54,16 @@ export const projects: Project[] = [
     technologies: ['Vite.js', 'UI', 'Framer Motion', 'Tailwind'],
     github: 'https://github.com/tahaa-faruqii/dashboard-portal',
     liveDemo: 'https://dashboard-portal-gamma.vercel.app/settings'
+  },
+  {
+    slug: 'dashboard-site',
+    title: 'koldkare',
+    category: 'Web',
+    image: '/koldkare.png',
+    description:
+      'A modern admin dashboard interface designed for data management and analytics with clean UI components, responsive layout, and interactive elements.',
+    technologies: ['React.js', 'UI', 'Animation', 'CSS'],
+    github: 'https://github.com/tahaa-faruqii/dashboard-portal',
+    liveDemo: 'https://koldkare.vercel.app/'
   }
 ]
