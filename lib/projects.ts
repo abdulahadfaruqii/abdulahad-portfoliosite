@@ -19,7 +19,7 @@ export const projects: Project[] = [
       'A modern full-stack e-commerce platform featuring product browsing, shopping cart, secure checkout, and responsive UI for seamless online shopping experience.',
     technologies: ['Vite.js', 'TypeScript', 'Tailwind', 'Stripe'],
     github: 'https://github.com/tahaa-faruqii/e-commercesite',
-    liveDemo: 'https://e-commercesite-rho.vercel.app/'
+    liveDemo: 'e-commercesite-git-main-tahaa-faruqiis-projects.vercel.app'
   },
   {
     slug: 'furniture-web',
