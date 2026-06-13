@@ -56,7 +56,7 @@ export const projects: Project[] = [
     liveDemo: 'https://dashboard-portal-gamma.vercel.app/settings'
   },
   {
-    slug: 'dashboard-site',
+    slug: 'koldkare',
     title: 'koldkare',
     category: 'Web',
     image: '/koldkare.png',
@@ -65,5 +65,16 @@ export const projects: Project[] = [
     technologies: ['React.js', 'UI', 'Animation', 'CSS'],
     github: 'https://github.com/tahaa-faruqii/dashboard-portal',
     liveDemo: 'https://koldkare.vercel.app/'
+  },
+  {
+    slug: 'dashboard-site',
+    title: 'Ledgrai-invoice',
+    category: 'Web',
+    image: '/ledgrai-invoice.png',
+    description:
+      'LegRA is a comprehensive Next.js-based business management platform featuring authentication, accounting, AI capabilities, inventory management, and file upload functionality with a multi-user dashboard.',
+    technologies: ['Next.js', 'UI', 'Animation', 'tailwind'],
+    github: 'https://github.com/tahaa-faruqii/ledgrai',
+    liveDemo: 'https://ledgrai-xi.vercel.app/'
   }
 ]
