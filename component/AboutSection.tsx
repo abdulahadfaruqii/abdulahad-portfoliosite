@@ -44,7 +44,7 @@ export function AboutSection() {
             About Me
           </h2>
           <p className="text-2xl text-white/80 max-w-2xl mx-auto text-center">
-            React.js & React Native Developer with 2+ years of experience
+            React.js & React Native Developer with 2.5+ years of experience
             building scalable, high-performance web and mobile applications with
             a strong focus on user experience.
           </p>
@@ -74,7 +74,7 @@ export function AboutSection() {
                 />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-white mb-4">2+ Years</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">2.5+ Years</h3>
             <p className="text-white/70">
               {" "}
               React.js & React Native Developer experience
