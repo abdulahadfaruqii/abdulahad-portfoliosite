@@ -67,7 +67,7 @@ export const projects: Project[] = [
     liveDemo: 'https://koldkare.vercel.app/'
   },
   {
-    slug: 'dashboard-site',
+    slug: 'ledgrai-invoice',
     title: 'Ledgrai-invoice',
     category: 'Web',
     image: '/ledgrai-invoice.png',
@@ -76,5 +76,16 @@ export const projects: Project[] = [
     technologies: ['Next.js', 'UI', 'Animation', 'tailwind'],
     github: 'https://github.com/tahaa-faruqii/ledgrai',
     liveDemo: 'https://ledgrai-xi.vercel.app/'
-  }
+  },
+  {
+    slug: 'vortex-website',
+    title: 'Vortex Website', 
+    category: 'Web',
+    image: '/vortex.png',
+    description:
+      'A personal developer portfolio built to showcase projects, skills, and experience using modern web technologies with smooth animations and responsive design.',
+    technologies: ['next.js', 'UI', 'Animation', 'Tailwind'],
+    github: 'https://github.com/tahaa-faruqii/vite-portfolio',
+    liveDemo: 'https://vortex-gallery-5d3p.vercel.app/'
+}
 ]

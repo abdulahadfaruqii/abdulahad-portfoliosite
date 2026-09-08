@@ -37,10 +37,11 @@ export const metadata: Metadata = {
     siteName: "Abdul Ahad Farooqi Portfolio",
     images: [
       {
-        url: "/professional-pic.png",
-        width: 1200,
-        height: 630,
+        url: "https://abdulahadfarooqiportfolio.vercel.app/professional-pic.png",
+        width: 562,
+        height: 999,
         alt: "Abdul Ahad Farooqi - React Developer",
+        type: "image/png",
       },
     ],
     locale: "en_US",
@@ -52,7 +53,7 @@ export const metadata: Metadata = {
     title: "Abdul Ahad Farooqi | React & React Native Developer",
     description:
       "Building modern web & mobile apps with React.js and React Native.",
-    images: ["/professional-pic.png"],
+    images: ["https://abdulahadfarooqiportfolio.vercel.app/professional-pic.png"],
   },
 
   robots: {
